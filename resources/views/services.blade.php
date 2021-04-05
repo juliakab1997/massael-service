@@ -31,10 +31,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php 
-                                        $i = 0;
-                                        \Carbon\Carbon::setLocale('fr');
-                                    ?>
+                                    
                                     @foreach ($services as $service)
                                         <tr>
                                             <td>{{ ++$i }}</td>
